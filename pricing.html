@@ -762,7 +762,10 @@ Talk To Us</a>
 .hs-calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:30px;height:30px;border-radius:50%;background:#fff;border:4px solid var(--hs-blue);cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.25);transition:transform .1s}
 .hs-calc input[type=range]::-webkit-slider-thumb:active{transform:scale(1.12)}
 .hs-calc input[type=range]::-moz-range-thumb{width:30px;height:30px;border-radius:50%;background:#fff;border:4px solid var(--hs-blue);cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.25)}
-.hs-calc .hs-ticks{display:flex;justify-content:space-between;font-size:.78rem;color:rgba(255,255,255,.7);margin-bottom:1.5rem}
+.hs-calc .hs-ticks{position:relative;height:1.2em;padding:0 15px;font-size:.78rem;color:rgba(255,255,255,.7);margin-bottom:1.5rem}
+.hs-calc .hs-ticks span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.hs-calc .hs-ticks span:first-child{transform:none}
+.hs-calc .hs-ticks span:last-child{transform:translateX(-100%)}
 .hs-calc .hs-terms{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.75rem}
 .hs-calc .hs-terms button{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:.55rem 1.1rem;font:inherit;font-weight:600;cursor:pointer;transition:all .15s}
 .hs-calc .hs-terms button em{font-style:normal;font-weight:700;color:#bff0ff;font-size:.82rem;margin-left:.3rem}
@@ -786,10 +789,10 @@ Talk To Us</a>
   <div class="hs-panel">
     <h2>What will HOA Start cost my community?</h2>
     <p class="hs-sub">Slide to your number of homes for an instant estimate. No hidden costs, no setup fees.</p>
-    <div class="hs-homes"><b id="hsHomes">200</b><span id="hsHomesLbl">homes</span></div>
+    <div class="hs-homes"><b id="hsHomes">250</b><span id="hsHomesLbl">homes</span></div>
     <div class="hs-slider">
-      <input type="range" id="hsRange" min="10" max="1000" step="5" value="200" aria-label="Number of homes">
-      <div class="hs-ticks"><span>10</span><span>250</span><span>500</span><span>1,000+</span></div>
+      <input type="range" id="hsRange" min="10" max="1000" step="5" value="250" aria-label="Number of homes">
+      <div class="hs-ticks"><span style="left:0">10</span><span style="left:24.24%">250</span><span style="left:49.49%">500</span><span style="left:74.75%">750</span><span style="left:100%">1,000+</span></div>
     </div>
     <div class="hs-terms" id="hsTerms">
       <button data-term="1" class="active">Annual</button>
@@ -820,7 +823,7 @@ Talk To Us</a>
         <a class="hs-cta" href="/hoastart-preview/request-pricing.html">Request Pricing</a>
       </div>
     </div>
-    <p class="hs-note" id="hsNote">Estimated annual total for a 200-home community. Multi-year discounts require paid-in-full at signup. Over 1,000 homes? <a href="/hoastart-preview/request-pricing.html">Get custom per-home pricing &#8594;</a></p>
+    <p class="hs-note" id="hsNote">Estimated annual total for a 250-home community. Multi-year discounts require paid-in-full at signup. Over 1,000 homes? <a href="/hoastart-preview/request-pricing.html">Get custom per-home pricing &#8594;</a></p>
   </div>
 </div>
 <script>
