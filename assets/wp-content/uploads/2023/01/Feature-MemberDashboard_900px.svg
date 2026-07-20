@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Event_Registration" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1162.5 1162.5">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st7, .st8, .st9 {
+        stroke: #000;
+      }
+
+      .st0, .st1, .st2, .st3, .st6 {
+        fill: none;
+      }
+
+      .st0, .st6, .st8 {
+        stroke-width: 29.5px;
+      }
+
+      .st1 {
+        stroke-width: 19.8px;
+      }
+
+      .st2 {
+        stroke-width: 19.8px;
+      }
+
+      .st3, .st5, .st7 {
+        stroke-width: 20.1px;
+      }
+
+      .st4, .st10 {
+        fill: #fff;
+      }
+
+      .st4, .st9 {
+        stroke-width: 30.3px;
+      }
+
+      .st5 {
+        fill: #9ed6f4;
+      }
+
+      .st6 {
+        stroke: #9ed6f4;
+      }
+
+      .st7 {
+        fill: #00649d;
+      }
+
+      .st8, .st9 {
+        fill: #00aeef;
+      }
+    </style>
+  </defs>
+  <path class="st9" d="M1142.6,87.2c0-36.2-29.3-65.3-65.3-65.3H83.9c-36.2,0-65.3,29.3-65.3,65.3v194.4h1124.1c0,.1,0-194.4,0-194.4h0Z"/>
+  <g>
+    <path class="st4" d="M1142.6,825V281.7H18.4v648.6c0,36.2,29.3,65.3,65.3,65.3h637.6l347.7-5.8c40.8-.7,73.5-33.9,73.5-74.7,0,0,0-90.1,0-90.1h0Z"/>
+    <g>
+      <path class="st5" d="M696.5,458.4c0,60.3-48.9,109.3-109.3,109.3s-109.3-48.9-109.3-109.3,48.9-109.3,109.3-109.3c60.3.2,109.3,49.1,109.3,109.3h0Z"/>
+      <path class="st7" d="M795.2,890.8v-196.7c0-39.2-31.9-71-71-71h-273.8c-39.2,0-71,31.9-71,71v195.8"/>
+      <line class="st3" x1="587.2" y1="623" x2="587.2" y2="749.7"/>
+    </g>
+    <path class="st2" d="M151.8,150.4c0-6.2-5-11.2-11.2-11.2s-11.2,5-11.2,11.2,5,11.2,11.2,11.2c6.1.1,11.2-5,11.2-11.2Z"/>
+    <path class="st2" d="M279.5,150.4c0-6.2-5-11.2-11.2-11.2s-11.2,5-11.2,11.2,5,11.2,11.2,11.2c6.2.1,11.2-5,11.2-11.2Z"/>
+    <circle class="st1" cx="395.9" cy="150.3" r="11.2" transform="translate(184.2 517.1) rotate(-80.8)"/>
+    <path class="st10" d="M1027.6,180.2h-474.4c-15.7,0-28.4-12.7-28.4-28.4s12.7-28.4,28.4-28.4h474.6c15.7,0,28.4,12.7,28.4,28.4s-12.8,28.4-28.6,28.4Z"/>
+    <line class="st6" x1="106.1" y1="807.6" x2="106.1" y2="901.9"/>
+    <line class="st6" x1="165.7" y1="807.6" x2="165.7" y2="901.9"/>
+    <line class="st3" x1="249.2" y1="890.8" x2="795.2" y2="890.8"/>
+    <polygon class="st8" points="1018.8 957.3 1098.1 878.2 759.8 787.5 850.5 1125.8 929.6 1046.5 1018.8 957.3"/>
+    <line class="st0" x1="974.2" y1="1001.9" x2="1094" y2="1121.8"/>
+  </g>
+</svg>

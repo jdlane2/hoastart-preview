@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 181.5">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: 2.7px;
+      }
+
+      .st0, .st1, .st2 {
+        fill: none;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        stroke: #00649d;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st1, .st5, .st6 {
+        stroke-width: 3.5px;
+      }
+
+      .st2 {
+        stroke-width: 5px;
+      }
+
+      .st3 {
+        stroke-width: 2.5px;
+      }
+
+      .st3, .st4 {
+        fill: #fff;
+      }
+
+      .st4, .st5, .st6, .st7 {
+        stroke: #000;
+      }
+
+      .st4, .st7 {
+        stroke-width: 5.2px;
+      }
+
+      .st5 {
+        fill: #9ed6f4;
+      }
+
+      .st6, .st7 {
+        fill: #00aeef;
+      }
+    </style>
+  </defs>
+  <g id="Event_Registration">
+    <path class="st7" d="M197,14.5c0-6.2-5.1-11.3-11.3-11.3H14.1c-6.3,0-11.3,5.1-11.3,11.3v33.5h194.2c0,.3,0-33.5,0-33.5Z"/>
+    <g>
+      <path class="st4" d="M197,147.6V48.3H2.7v117.6c0,6.2,5.1,11.3,11.3,11.3h110.1l60.1-.9c7.2-.2,12.7-5.8,12.7-13,.1,0,.1-15.7.1-15.7Z"/>
+      <rect class="st5" x="15.9" y="66.9" width="168.6" height="35.4"/>
+      <rect class="st6" x="125.6" y="117.1" width="60.2" height="45.6"/>
+      <line class="st1" x1="102.3" y1="117.1" x2="15.6" y2="117.1"/>
+      <line class="st2" x1="150.2" y1="19.7" x2="63.5" y2="19.7"/>
+      <line class="st1" x1="102.3" y1="140" x2="15.6" y2="140"/>
+      <line class="st1" x1="102.3" y1="162.7" x2="15.6" y2="162.7"/>
+    </g>
+  </g>
+  <line class="st0" x1="114.8" y1="33.8" x2="63.6" y2="33.8"/>
+  <circle class="st3" cx="32.6" cy="25.6" r="13.5"/>
+</svg>
