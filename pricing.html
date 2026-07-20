@@ -788,8 +788,8 @@ Talk To Us</a>
     <p class="hs-sub">Slide to your number of homes for an instant estimate. No hidden costs, no setup fees.</p>
     <div class="hs-homes"><b id="hsHomes">200</b><span id="hsHomesLbl">homes</span></div>
     <div class="hs-slider">
-      <input type="range" id="hsRange" min="10" max="500" step="5" value="200" aria-label="Number of homes">
-      <div class="hs-ticks"><span>10</span><span>150</span><span>300</span><span>500+</span></div>
+      <input type="range" id="hsRange" min="10" max="1000" step="5" value="200" aria-label="Number of homes">
+      <div class="hs-ticks"><span>10</span><span>250</span><span>500</span><span>1,000+</span></div>
     </div>
     <div class="hs-terms" id="hsTerms">
       <button data-term="1" class="active">Annual</button>
@@ -820,7 +820,7 @@ Talk To Us</a>
         <a class="hs-cta" href="/hoastart-preview/request-pricing.html">Request Pricing</a>
       </div>
     </div>
-    <p class="hs-note" id="hsNote">Estimated annual total for a 200-home community. Multi-year discounts require paid-in-full at signup. Over 500 homes? <a href="/hoastart-preview/request-pricing.html">Get custom per-home pricing &#8594;</a></p>
+    <p class="hs-note" id="hsNote">Estimated annual total for a 200-home community. Multi-year discounts require paid-in-full at signup. Over 1,000 homes? <a href="/hoastart-preview/request-pricing.html">Get custom per-home pricing &#8594;</a></p>
   </div>
 </div>
 <script>
@@ -839,7 +839,7 @@ Talk To Us</a>
   }
   function render(){
     var h=parseInt(range.value,10);
-    document.getElementById('hsHomes').textContent=h + (h>=500?'+':'');
+    document.getElementById('hsHomes').textContent=h.toLocaleString('en-US') + (h>=1000?'+':'');
     document.getElementById('hsHomesLbl').textContent = h===1?' home':' homes';
     var b=baseAnnual(h), d=discount[term];
     var ids=['Pro','Pre','Wg'];
@@ -849,10 +849,12 @@ Talk To Us</a>
       document.getElementById('hs'+ids[i]+'Mo').textContent='≈ '+fmt(yr/12)+'/mo';
       document.getElementById('hs'+ids[i]+'Cyc').textContent = term==1?'per year':('per year · '+term+'-yr plan');
     }
+    var hl = h.toLocaleString('en-US') + (h>=1000?'+':'');
+    var perHomeNote = h>500 ? ' Priced per home at this size.' : '';
     var note = term==1
-      ? 'Estimated annual total for a '+h+(h>=500?'+':'')+'-home community. '
-      : 'Estimated per-year cost on the '+term+'-year plan (billed paid-in-full at signup) for a '+h+(h>=500?'+':'')+'-home community. ';
-    document.getElementById('hsNote').innerHTML = note + 'Over 500 homes? <a href="/hoastart-preview/request-pricing.html">Get custom per-home pricing &#8594;</a>';
+      ? 'Estimated annual total for a '+hl+'-home community.' + perHomeNote + ' '
+      : 'Estimated per-year cost on the '+term+'-year plan (billed paid-in-full at signup) for a '+hl+'-home community.' + perHomeNote + ' ';
+    document.getElementById('hsNote').innerHTML = note + 'Over 1,000 homes? <a href="/hoastart-preview/request-pricing.html">Get custom per-home pricing &#8594;</a>';
   }
   range.addEventListener('input',render);
   document.getElementById('hsTerms').addEventListener('click',function(e){
